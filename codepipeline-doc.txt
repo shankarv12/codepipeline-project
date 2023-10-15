@@ -1,3 +1,8 @@
+EC2 related steps:
+
+Create Ec2 server on which we have to deploy the app. 
+Make sure to install the codedeploy agent and ssm-agent on the server.
+Also attached the IAM role which includes codedeploy and ssm policy.
 
 
 Codecommit Tools:
@@ -107,7 +112,7 @@ cd /home/ubuntu/
 java -jar app.jar > /var/log/app.log 2>&1 &
 
 
-
+Reference Links:-
 https://towardsaws.com/anatomy-of-the-appspec-file-abadf06186ef
 
 https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html
